@@ -48,9 +48,32 @@ p.chat{
     margin: 5px 5px 5px 10px ;  
 }
 
-tr { border: solid gray}
+.contacs{
+    display: flex;
+}
 
-    
+
+/* MAIN */
+
+main{ display: flex;
+
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+
+}
+
+.welcome-img
+ {height: 100px;
+}
+
+.welcome-text{ margin: 0 30px 0 30px;}
 
 
 
