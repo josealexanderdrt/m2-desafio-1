@@ -42,10 +42,15 @@ p.chat{
 
 /*LISTA DE CONTACTOS */
 
-ul{ 
-    list-style: none;
+.photocontacs {
+    height: 60px;
+    border-radius: 30px;
+    margin: 5px 5px 5px 10px ;  
 }
 
+tr { border: solid gray}
+
+    
 
 
 
@@ -57,9 +62,7 @@ ul{
      border-radius: 30px;}
    
 
-.photocontacs {
-        height: 60px;
-        border-radius: 30px;}
+
 
 
 .user-status{ 
