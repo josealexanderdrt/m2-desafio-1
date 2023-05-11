@@ -1,4 +1,162 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400&family=Raleway:wght@300;500&family=Roboto&family=Trochut&display=swap');
+
+
+body{
+    font-family: "Roboto";
+}
+
+.container {
+    display: flex;
+}
+
+aside{
+    width: 25%;
+}
+
+.imagen img{
+    height: 3rem ;
+    border-radius: 1.5rem;
+    border:solid #E8EBE4 2px ;
+}
+
+.top {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1.25rem 0.7rem 1.6rem;
+
+}
+
+.first{
+    display: flex;
+}
+
+.first-tex{
+    padding: 0.7rem 1.2rem 1rem 1rem;
+    }
+.name{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.active{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #bec1bb;
+
+}
+
+.fa-regular{ 
+    padding: 0.2rem;
+    
+}
+
+.fa-solid { 
+    padding: 0.2rem;
+    
+}
+
+
+button{
+    background-color: #a491da;
+    margin: 1rem;
+    text-align: center;
+    color:#fff;
+    border: none;
+    width: 80%;
+    height: 3rem;
+    padding: auto;
+    align-items: center;
+    font-size: 1rem;
+    
+
+}
+
+button:hover{
+    background-color: #CDC3E6 ;
+    cursor:pointer ;
+}
+
+button:focus{
+    background-color: #bec1bb ; }
+
+.new-chat{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.chats img{
+    height: 3rem;
+    border-radius: 50%;
+    border:solid #E8EBE4 2px ;
+    
+
+}
+
+.chat-active {
+    font-size: 0.87rem;
+    font-weight: 300;
+    padding-left: 10px;
+ 
+}
+
+.chats {
+    display: flex;
+    padding: 0 0 0 25px;
+    border-top: solid #E8EBE4 2px ;
+    padding: 1rem 1.25rem 1rem 1.5rem;
+}
+
+.chat-name{
+    padding-left: 10px;
+}
+
+
+
+
+.chats:hover{
+    background-color: #d4dcff ;
+    cursor:pointer ;
+    border-radius: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+main img{ height: 13rem;}
+
+
+main h1 {
+    font-weight: ;
+    font-size: ;
+    margin-bottom: ;
+    padding-bottom: 0.7rem;
+}
+
+main h2{
+    font-size: ;
+    font-weight: ;
+    margin: ;
+
+}
+
+
+
+
+/*  hecho antes de la corrección con tutor */
+
+/*  hecho antes de la corrección con tutor
 section {
     display: flex;
     width: 250px;
@@ -15,7 +173,7 @@ section {
 
 /*NUEVO CHAT */
 
-
+/*  hecho antes de la corrección con tutor 
 button{ background-color: #a491da;
     margin: 20px;
     text-align: center;
@@ -25,6 +183,8 @@ button{ background-color: #a491da;
 
 }
 
+
+/*  hecho antes de la corrección con tutor 
 button:hover{
     background-color: #CDC3E6 ;
 }
@@ -40,8 +200,8 @@ p.chat{
 
 }
 
-/*LISTA DE CONTACTOS */
-
+/*  hecho antes de la corrección con tutor */
+/*LISTA DE CONTACTOS 
 .photocontacs {
     height: 60px;
     border-radius: 30px;
@@ -53,7 +213,7 @@ p.chat{
 }
 
 
-/* MAIN */
+/* MAIN 
 
 main{ display: flex;
 
@@ -100,3 +260,7 @@ main{ display: flex;
 
 .list {
     border-color: red;}
+
+
+    
+ */
